@@ -1,5 +1,6 @@
 package com.github.passmesomesugar.employee_management_system.service;
 
+import com.github.passmesomesugar.employee_management_system.exceptions.UserNotFoundException;
 import com.github.passmesomesugar.employee_management_system.model.Employee;
 import com.github.passmesomesugar.employee_management_system.repo.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
