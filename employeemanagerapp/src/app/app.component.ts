@@ -25,4 +25,10 @@ export class AppComponent implements OnInit{
     (error: HttpErrorResponse) => {alert(error.message); 
     });
    }
+
+   public onOpenModal(employee: Employee,mode:string):void{
+     const button = document.createElement('button');
+     button.type = 'button';
+     button.style.display = 'none';
+   }
 }
